@@ -1,0 +1,721 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A discovery of seducers that creep into houses. Written by Tho. Moore.</title>
+            <author>Moore, Thomas, Senior.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1646</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 71 KB of XML-encoded text transcribed from 18 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A89270</idno>
+            <idno type="STC">Wing M2593</idno>
+            <idno type="STC">Thomason E334_10</idno>
+            <idno type="STC">ESTC R200765</idno>
+            <idno type="EEBO-CITATION">99861425</idno>
+            <idno type="PROQUEST">99861425</idno>
+            <idno type="VID">113560</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A89270)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 113560)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 54:E334[10])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A discovery of seducers that creep into houses. Written by Tho. Moore.</title>
+                  <author>Moore, Thomas, Senior.</author>
+               </titleStmt>
+               <extent>[8], 27, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>Printed in the year. 1646.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Place of publication from Wing.</note>
+                  <note>Annotation on Thomason copy: "Aprill 27 London".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Timothy, 2nd III, 5-9 --  Commentaries.</term>
+               <term>Great Britain --  Church history --  17th century --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-08</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2010-08</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:113560:1" rendition="simple:additions"/>
+            <p>A DISCOVERY OF SEDVCERS, THAT CREEP INTO HOUSES.</p>
+            <p>Written by THO. MOORE.</p>
+            <q>
+               <bibl>Matth. 7.15.</bibl>
+               <p>
+                  <hi>Beware of falſe Prophets, that come to you in ſheepes clothing, but in<g ref="char:EOLhyphen"/>wardly, they are Ravening Wolves.</hi>
+               </p>
+            </q>
+            <p>Printed in the Year. 1646.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:113560:2"/>
+            <pb facs="tcp:113560:2"/>
+            <head>THE EPISTLE.</head>
+            <opener>
+               <salute>Dear Chriſtian, and much eſteemed Friend,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg>T being the Will and Commandement of God concer<g ref="char:EOLhyphen"/>ning all Beleevers, in reſpect of one another, even all Be<g ref="char:EOLhyphen"/>leevers, where God affords them fellowſhip in the Go<g ref="char:EOLhyphen"/>ſpel. <hi>Phil.</hi> 1.5. <hi>To edifie themſelves</hi> (or one another) <hi>in their muſt holy</hi>
+               <note n="*" place="margin">Doth not the very Text of Scripture af<g ref="char:EOLhyphen"/>firme all this?</note> 
+               <hi>Faith, &amp;c.</hi> Jude 20,21. 1 Theſſ.
+5.11. And this by <hi>Teaching.</hi> Col. 3.16. <hi>Exhorting.</hi> Heb. 3.13.
+<hi>Warning, Com<g ref="char:EOLhyphen"/>forting.</hi> 1. Theſſ. 5.11.14. <hi>Provoking, &amp;c.</hi> Hebr. 10.24. And concerning unbeleevers, That they hold forth the Word of <hi>life</hi> to them. <hi>Phil.</hi> 2.15,16.</p>
+            <p>
+               <hi>And Jeſus Chriſt, having Aſcended to his Fathers Right hand, to give gifts</hi>
+               <note n="*" place="margin">Saith not the Scripture all this?
+<hi>Pſal.</hi> 68.18,20.</note> 
+               <hi>to perfect his Saints for the work of the Mi<g ref="char:EOLhyphen"/>niſtery.</hi> Eph. 4.12. And ſo given <hi>to every one of them, ſome portion of his Spirit, to Miniſter with,</hi> Ephe. 4.7. 1 Cor. 12.5.11.</p>
+            <p>
+               <hi>And avouched ſuch whom Hee hath united to himſelf, and endued with his Spirit, To be ſpirituall</hi>
+               <note n="*" place="margin">Is not this more plaine and full in the
+<hi>Scripture?</hi>
+               </note> 
+               <hi>Prieſts; The Prieſts of the Lord; And that they ſhall build and repaire; and men ſhall call them the Mi<g ref="char:EOLhyphen"/>niſters of our God.</hi> 1. Pet. 2.3,4,5. <hi>Iſa.</hi> 61.3,4,5,6.</p>
+            <p>
+               <hi>And the Holy Spirit Affirmed to be given to every Beleever. To profit withall.</hi> 1 Cor. 12.4,7. <hi>And that to this end, That the Church of Belee<g ref="char:EOLhyphen"/>vers, (or Body of Chriſt,) may be knit together, and</hi>
+               <note n="*" place="margin">Is not all this evident in the Scripture?</note> 
+               <hi>grow by that which every joynt ſupplyeth.</hi> Eph.
+4.15,16.</p>
+            <p>
+               <pb facs="tcp:113560:3"/> 
+               <hi>And the Grace to Charity put in them moving that way.</hi> 1 Cor. 5.11,14. Act. 26.29. <hi>And the word of Grace put in them, having that in it that appertaines to all, and makes them indebted to all.</hi>
+2. Cor. 5.19,20. Rom. 1.14,16. <hi>And the mercy ſhewne them, a Patterne to be held forth for others incouragement.</hi> 1 Tim. 1.15,16.</p>
+            <p>
+               <hi>For which cauſes, They are alſo called Stewards, in whom faithfulneſſe is required.</hi> 1 Pet. 4.10. 1 Cor. 4.2. <hi>And the bounds of their miniſtrati<g ref="char:EOLhyphen"/>on ſet forth: Every man, as he hath received the gift, ſo Miniſter the ſome one to another; If any man ſpeake; let him ſpeak as the</hi>
+               <note n="*" place="margin">Is not this alſo the language and Teſtimo<g ref="char:EOLhyphen"/>ny of the Scripture? <hi>Eccleſ.</hi> 12.10.</note> 
+               <hi>Oracles of God; If any man mi<g ref="char:EOLhyphen"/>niſter, let him doe it, as of the Ability which God giveth.</hi> 1 Pet. 4.10,11. <hi>According as God hath dealt to every man the meaſure of Faith.</hi> Rom. 12.3. <hi>And this, though they ſuffer for it.</hi> 1 Pet. 4.12,13. <hi>with</hi> Act. 4.19,20. <hi>And the Doctrine alſo appointed them; Even that which is written: The Words and ſay<g ref="char:EOLhyphen"/>ings of Chriſt in the Goſpell.</hi> Pro. 32,20,21. 2 Joh. 9.10. Col. 3.16. 1 Theſ. 4.18.</p>
+            <p>
+               <hi>In all which reſpects, The whole Church on Earth, is the light of the World.</hi> Mat. 5.14 <hi>to hold forth the word of Life.</hi> Phil. 3.16.</p>
+            <p>
+               <hi>Their Authority is from</hi>
+               <note n="*" place="margin">Sure the Scripture ſhewes all this.</note> 
+               <hi>Heaven, from God, and Chriſt his Sonne; and the holy Ghoſt, by whom Chriſt hath put the word of Grace in their hearts.</hi> 2 Cor. 5.18,19,20. &amp; 6.1. 1 Cor. 12. <hi>Jeſus Chriſt having ſent theſe into the World, to miniſter the Go<g ref="char:EOLhyphen"/>ſpel: and prayed for them, and ſanctified them to that end.</hi> Joh. 17.9.18,21.</p>
+            <p>
+               <hi>And borne witneſſe of them, by making knewne the Saviour of his knowledge,</hi>
+               <note place="margin">And for all he ther to ſaid, many have writ as much. Mr. <hi>Calvin. lib.</hi> 4. of his <hi>Inſt. cap.</hi> 1<g ref="char:punc">▪</g>5.3.
+<hi>V<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>ſin.</hi> on
+<hi>Commun.</hi> of <hi>Saints,</hi> &amp;c.</note> 
+               <hi>through them.</hi> 2 Cor. 14. <hi>By which the Lord hath ſtamped his Authority for them, in declare the Goſpel, as he gives occaſion, and
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ppartunity to them, and by grace leades them.</hi> Iſa. 61.3,6.</p>
+            <p>
+               <pb facs="tcp:113560:3"/>
+               <note place="margin">Mr. <hi>Perkins</hi> on the <hi>Creed,</hi> a<g ref="char:EOLhyphen"/>bout our <hi>union</hi> with Chriſt, and each other. Mr. <hi>Bolton,</hi> in his generall Directions for com<g ref="char:EOLhyphen"/>fortable walking with God <hi>pag.</hi> 87,
+89. 25. 8. <hi>Joſeph Bertham,</hi> on <hi>Society of Saints,</hi> p. 3. 4.
+18. to 23. Do<g ref="char:EOLhyphen"/>ctor <hi>Sc<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ater.</hi>
+1 Theſſ. 5.11. Biſhop <hi>Jewell</hi> on the ſame. <hi>Rich. Rogers</hi> 7. Treaties. <hi>Tract.</hi> 4. <hi>fol.</hi> 394 397. 398.
+<hi>Byfield</hi> on <hi>Coll.</hi> 1.4. <hi>&amp;</hi> 3.16. <hi>&amp;</hi>
+4.2. <hi>Cooper.</hi> Daily Sacrifice. <hi>pag.</hi> 431. 432. <hi>Nicholaus Bound.</hi> Pſal. 119.13. <hi>Tindal.</hi> Mat. 5.16. <hi>Eraſmus.</hi> Luk. 8.16. <hi>Wilſon Dixionary.</hi> pag 57. on 1 Pec. 2.17. and pag. 151. on 1 Theſſ. 5.11. &amp; pages 280. 591. 858. 860. 612. Others might be named; ſuch as will, may ſearch and ſee this is no Novelty.</note>
+               <hi>And this is that which gives, and confirmes Authority to preach the Goſpel.</hi> Rom. 12.3. 1 Cor. 12. Eph. 4.12,16.</p>
+            <p>
+               <hi>
+                  <gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>t for an Office outward, for overſight of</hi>
+               <note n="*" place="margin">See in all this Docter <hi>Fulk,</hi> in Anſ. to the <hi>Rhe<g ref="char:EOLhyphen"/>miſts,</hi> on <hi>Rom.</hi> 10.15. To ſay nothing of Mr. <hi>Robiſon,</hi> and Mr. <hi>Ainſworth,</hi> becauſe they were Separatiſts. The Scripture ſheweth all this to be no Novelty, but An<g ref="char:EOLhyphen"/>tient Truth.</note> 
+               <hi>Brethren, and leading them in order, and Attention to Miniſtration in ſuch an Office; The Lord hath ſet ſome for helps in Government.</hi> 1 Cor. 12.28. <hi>for which bee hath appointed the Election of the Church; And approbation of ſuch in the Church, as are fitted thereto, without which Call, to aſſume, ſuch an office, is not according to God; But with it, To enter ſuch an Office, for any ſo fitted, as formerly. Is Landable. But this outward Gall, gives them neither the ability, nor the authority to Preach the Goſpel, for that they had before; elſe they erred that chooſe, and called them.</hi> 1 Tim. 3.2. <hi>Much leſſe doth it Authorize them to ſtop the mouthes of them that teach right things; but it outhoriceth them to a more peculiar watch, and to atten<g ref="char:EOLhyphen"/>dance to Preaching to ſuch. And to lead to Miniſter, in ſuch and ſuch an approved Order, with ſuch authority as may be ſeen.</hi> 1 Tim. 3.4,5. 2 Tim.
+<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>. Tit. 1. <hi>And this full for the furtherance, even of there brethrens uſeful<g ref="char:EOLhyphen"/>neſſe in gifts.</hi> 1 Tim. 4.12. 2 Tim. 2.3.</p>
+            <p>
+               <hi>And this being ſo plain in the Scripture, and ſo ſuitable too, and ſet forth in the Goſpel of Chriſt;
+<gap reason="illegible" resp="#OXF" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>, How any ſuch as pro<g ref="char:EOLhyphen"/>feſſe themſelves before others, in the knowledge of the Goſpel, and ſaith in Chriſt, ſhould be ſo ignorant hereof; As that with pretence of C<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nſcience of <pb facs="tcp:113560:4"/>an outward Call (though ſuch, as on the turning the winde, they can re<g ref="char:EOLhyphen"/>nounce alſo,) To quench the Spirit in Beleevers, and prohibit their obe<g ref="char:EOLhyphen"/>dience to the Commandements of God, and the grace and Spirit of Chriſt: And as many as doe not obey them, rather then, yea againſt God, To call them
+<hi>Seducers,</hi> and <hi>Creepers into Houſes:</hi> But Satan, that taught that Man of ſinne to put the Name of <hi>Biſhops</hi> upon Tyrannicall worldly Lords, and Governours, and to put the name of <hi>Church</hi> upon ſuch an order, and Aſſemblies of Court, and Convocations, as were worldly, and yet neither Church, nor Common Wealth; and to put the name of God<g ref="char:EOLhyphen"/>lineſſe, and Religious Devotion upon Idolatry and Superſtition, and the Name of CHRIST upon Anti-Chriſt.</hi> 2 Theſſ. 2.4,12. <hi>Colouring all this with confeſſion of ſome part of Truth, The more reddily to deceive, and caſt the aſpercions of Hereticks and Seducers on true Beleevers; even this deceitfull Serpent, when he can no longer prevail in this way, can then more ſecretly winde in himſelf into ſome, under pretence of zealous Re<g ref="char:EOLhyphen"/>nouncing all theſe uſurped Titles, and Courts, and groſſe Superſtitions, Preſſing on in the ſame pride, To the ſame power and Lordlineſſe, in a more godly way.</hi> Joh. 3.9,10. <hi>And ſo ſtill caſt the ſame aſpertions on all that ſtoop not to acknowledge ſuch Excellency and Authority in them, as not to paſſe their limits:</hi>
+               <note n="*" place="margin">The name <hi>Biſhops,</hi> or
+<hi>El<g ref="char:EOLhyphen"/>ders,</hi> with their Office; The Aſſemblies of Chriſtians; The Councells of <hi>Elders</hi> and Bre<g ref="char:EOLhyphen"/>thren, and every godly Perſon of, or among them, are good, and to be reverenced, and no whit touched here; Nor are Independants, here counte<g ref="char:EOLhyphen"/>nanced; God onely is Inde<g ref="char:EOLhyphen"/>pendant; and in reſpect of Chriſt, and ſubmiſſion among men, I know none, unleſſe it be the
+<hi>Pope,</hi> and ſuch as hee, and the Counſell of <hi>Trent,</hi> and ſuch as they. As for true Churches, whether wanting a <hi>Presbytry,</hi> as thoſe of <hi>Corinth,</hi> or having a Congregation<g ref="char:EOLhyphen"/>all Presbytry, as thoſe of <hi>Philippi,</hi> or both, that an Overſeer over di<g ref="char:EOLhyphen"/>vers of them, as in
+<hi>Epheſus</hi> and <hi>Creet;</hi> I reverence them all; but Satan, to put any theſe names on wrong Perſons, is uſuall. <hi>Rev.</hi> 2.9.
+<hi>&amp;</hi> 3.9. 1 Cor. 11.3. <hi>&amp;c.</hi>
+               </note> 
+               <hi>So that wee ſtill need to pray that prayer, <hi>Tell me where thou feedeſt, &amp;c.</hi> Cant.</hi> 1.7. <hi>And to obſerve that direction.</hi> Matt. 7.15,16. <hi>Yee ſhall know them by their fruits, &amp;c. Their Doctrine, and the favor, and end of their Doctrine.</hi> 1 Cor. 12.1,12.
+<hi>And to keep that charge, <hi>Beleeve not every Spirit, but Try the Spirits,</hi> &amp;c.</hi> 1 Joh. 4.1,2,6.</p>
+            <p>
+               <pb facs="tcp:113560:4"/>
+               <hi>And for that end, To the Law, To the Teſtimony, &amp;c.</hi> Iſa. 8.19,20. <hi>Knowing that none can prove an Hereſy by, nor vent it in a plaine ſaying of Scripture, but they muſt adde or diminiſh, wereſt and Gloſs, to make a ſee<g ref="char:EOLhyphen"/>ming Proof, And wee having that help herein.</hi> Joh. 10.4. 1 Joh. 2.20,27,28. <hi>Let not mens eaſting an ill name on the Truth, or any part thereof, or on the Servants of it.</hi>
+               <note n="*" place="margin">This hath been an anti<g ref="char:EOLhyphen"/>ent trick of the Devill, and his ſervants, <hi>Joh.</hi> 8.48. <hi>Act.</hi> 28.22.</note>
+               <hi>Nor their putting the name of Truth upon errour, ſway us: But ſearch the Scripture; And this Scrip<g ref="char:EOLhyphen"/>ture, which hath been ſo often abuſed in your hearing; ſome conſideration whereof I have preſented to you; <hi>Try all things, and keep that which is good;</hi> And the Lord ſeaſonably doſcover who are <hi>Seducers,</hi> and lead us into all Truth; And Hee ever fill you with bleſſing according to the Prayer of his poor unworthy one; and <hi>Yours</hi> in all Service of Love in CHRIST.</hi>
+            </p>
+            <closer>
+               <signed>THO. MOORE.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <head>
+            <pb facs="tcp:113560:5"/> 
+            <pb n="1" facs="tcp:113560:5"/>A DISCOVERY OF SEDVCERS, THAT CREEP INTO HOUSES.</head>
+         <head type="sub">A brief View of 2 <hi>Tim.</hi> 3.5,9.</head>
+         <div type="introduction">
+            <p>
+               <seg rend="decorInit">T</seg>He Apoſtle having forewarned, that perillous Times would come, and ſhewne a reaſon why they would be ſo perrillous; Doth here diſcover one of the chiefeſt Perills that would enſue; and that is of the
+<hi>Seducement</hi> of ſome from the faith, and Love of Chriſt, and Union and Fellowſhip with Beleevers: And herein hee diſcovereth, and ſetteth forth the Sedu<g ref="char:EOLhyphen"/>cers; By Shewing:
+<table>
+                  <row>
+                     <cell>1. Of what ſort they are, and to whom they belong.</cell>
+                     <cell>
+                        <hi>Of this ſort are they,</hi> Which</cell>
+                  </row>
+                  <row>
+                     <cell>2. Their way of Attempting their Buſineſſe; They</cell>
+                     <cell>
+                        <hi>Creep into Houſes,</hi>
+                     </cell>
+                  </row>
+                  <pb n="2" facs="tcp:113560:6"/>
+                  <row>
+                     <cell>3. Their worke which they doe they imbondage.</cell>
+                     <cell>
+                        <hi>And lead Captive</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>4. In, &amp; with whom their work prevailes,</cell>
+                     <cell>
+                        <hi>Silly women, laden with ſinnes, lead away with divers Luſts, ever larning, and never able to come to the Knowledge of the Truth.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>5. The manner of their working to Accompliſh their buſineſſe.</cell>
+                     <cell>
+                        <hi>Now as</hi> James <hi>and</hi> Jambres
+<hi>with<g ref="char:EOLhyphen"/>ſtood</hi> Moſes, <hi>So doe theſe alſo re<g ref="char:EOLhyphen"/>ſiſt the Truth.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>6. The true Charracter of the Seducers Uncloaked,</cell>
+                     <cell>
+                        <hi>Men of corrupt mindes, Reprobate, or of no judgement con<g ref="char:EOLhyphen"/>cerning the Faith.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>7. The extent of their work, both in what, and in whom,
+<p>They doe but trouble, imbondage and captive, they bring none to liber<g ref="char:EOLhyphen"/>ty and ſound Peace, and reſt in Chriſt.</p>
+                        <p>They lead captive none but ſuch unſtable ones.</p>
+                     </cell>
+                     <cell>
+                        <hi>They ſhall proceed no Further.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>8. The Iſſue of their buſineſſe, when they come to Attempt delivery from bondage, and Tender freedome in Chriſt; And when they deale with eſtabliſhed beleevers.</cell>
+                     <cell>
+                        <hi>Their folly ſhall be made manifeſt to all men, as theirs alſo was.</hi>
+                     </cell>
+                  </row>
+               </table> 
+            </p>
+         </div>
+         <div n="1" type="section">
+            <p>1. <hi>Of this ſort are they;</hi>]
+<note place="margin">Compare <hi>Mat.</hi> 23.14,25. with 2
+<hi>Pet.</hi> 2.1. &amp; <hi>Joh.</hi> 5.7,8,9. and it con<g ref="char:EOLhyphen"/>firms the ſame.</note> That is, Such as are branded with divers of the former evills; Covered over with a <hi>forme of God<g ref="char:EOLhyphen"/>lineſſe,</hi> a ſhow of
+<hi>Love,</hi> and <hi>Zeal,</hi> and <hi>De<g ref="char:EOLhyphen"/>vetion,</hi> accompanied with much
+<hi>Praying, Faſting, Preaching;</hi> Strict in <pb n="3" facs="tcp:113560:6"/>outward Obſervation of <hi>Sabbath's,</hi> and ſevere proſecution of cir<g ref="char:EOLhyphen"/>cumſtantiall things. <hi>Rom.</hi> 10.2. <hi>Matt.</hi> 23.14.27.
+<hi>Luk.</hi> 18.11. But have not the Word of Reconciliation in their heart, and the Spirit of grace therein, writing the Epiſtle of Chriſt in their heart, and ſo leading them in a Chriſt-like minde, To move others to be recon<g ref="char:EOLhyphen"/>ciled to Chriſt, as the Servants of Chriſt have. <hi>Joh.</hi>
+15.4,7. <hi>Rom.</hi> 8.2,14. 2 <hi>Cor.</hi> 3.3,18. <hi>and</hi> 8.14,19. Of theſe they ſeem to bee; with theſe they ſometime are, from among theſe they come; but of them they are not. 1 <hi>Joh.</hi> 2.19. But of the former ſort, to whom they belong, and with whom they are, (and ought to be) numbred; Which.</p>
+         </div>
+         <div n="2" type="section">
+            <p>2. <hi>Creep into Houſes,</hi>] This is their way, they ſubtilly, and ſe<g ref="char:EOLhyphen"/>cretly, and by degrees, creep, or wind themſelves into houſes; Two things are here to be rightly Underſtood; Firſt, What is here meant by <hi>houſes;</hi> and Secondly, what is meant, or intimated in this Word; <hi>Creep into.</hi>
+            </p>
+            <p>Firſt by <hi>houſes,</hi> is here meant Churches, or Societyes of ſuch as doe beleeve, and make Profeſſion of the Goſpel: (For the Apoſtle was before directing <hi>Timothy</hi> about the Doctrine, ſuitable to be in, and to build up the Houſe of God. <hi>Chap.</hi> 2.1,20,26.) Warning him of ſome that had departed from the Faith, and overthrowne the Faith of ſome, <hi>Chap</hi> 3.18. and of ſome to be recovered,
+<hi>Verſ.</hi> 25, 26. And here fore-warning of ſuch-like Perills; He to admoniſh <hi>Timo<g ref="char:EOLhyphen"/>thy,</hi> minds him of his owne example. <hi>Chap.</hi>
+3.10,11. in Doctrine, and life; Now then, of what <hi>houſes</hi> are here meant, is eaſie to diſcerne; <hi>So Wiſedome hath built her houſe.</hi> Prov. 9.1. <hi>And whoſe houſe wee are.</hi> Heb. 3.3.6. <hi>A ſpirituall houſe.</hi> 1 Pet. 2.5. <hi>Now as this great houſe is one, and called the Church of Chriſt.</hi> 1 Cor. 12.28. So, the particular Con<g ref="char:EOLhyphen"/>gregations, ſocietyes, or Famillies are called Churches, and here houſes. <hi>Gal.</hi>
+1.2.</p>
+            <p>Secondly, By this word <hi>Creep,</hi> is meant, and intimated three things, about their incomming to be Teachers in ſuch Societies or
+<hi>Houſes.</hi>
+            </p>
+            <p n="1">1. Their want of Authority, and comming in at the doore; They have not the word of Grace put into their hearts by the Spirit of Chriſt, and ſo have not been in the Heavenly Call choſen out of <pb n="4" facs="tcp:113560:7"/>the Condition, and fellowſhip of the world, into union and fellow<g ref="char:EOLhyphen"/>ſhip with Chriſt, and his Choſen ones, and ſo have not the Spi<g ref="char:EOLhyphen"/>rit of Chriſt to move, and lead them forth in that Chriſt-like mind, and Charity, as all his ſervants, whom hee ſendeth, have. 2 <hi>Cor.</hi> 3.2,3,18 &amp; 4.6. &amp;
+5.14.18,19,20. 1 <hi>Joh.</hi> 1.1,2,3. As the will &amp; Ap<g ref="char:EOLhyphen"/>pointment of the Father. (<hi>Heb.</hi> 10.1,10.) is that Door, by which JESUS CHRIST himſelf entered; for <hi>Jeſus Chriſt himſelf is the DOOR of the Fathers Will, and Appointment,</hi> by which all Accep<g ref="char:EOLhyphen"/>table entrance in to God, or the houſe of God is. <hi>Joh.</hi> 10.2.7.9. &amp; 14.6.</p>
+            <p>And this ſpirituall making knowne of the Father, and Chriſt; ſo as thereby to draw out of the World, and bring into Chriſt; and then giving in the word into the heart, enabling with the heart to <hi>beleeve unto Righteouſneſſe, and with the mouth to make confeſſion unto ſalvation,</hi> in CHRIST his opening of, or putting in any by the Doore.
+<hi>Joh.</hi> 17.38,8. <hi>Rom.</hi> 3.10.</p>
+            <p>To ſuch, he hath given Commiſſion to declare the Goſpel, and for ſuch Hee hath prayed, for their Sanctification, Preſervation, and proſperous bleſſing in their Miniſtration of the Goſpel, and he hath given his Commiſſion, and prayed for ſuch bleſſing in Mini<g ref="char:EOLhyphen"/>ſtration, for none but ſuch as theſe, none that yet remaine in the Condition of, and fellowſhip with the world. <hi>Joh.</hi>
+17.9,14,18,20,21,23.</p>
+            <p>And therefore ſuch as are not thus fitted, warranted, and led by Chriſt, that they may ſay as <hi>Paul.</hi> 2 Cor. 5.14,18,18,19,20. They have no commiſſion from Chriſt, nor doe they come into the houſe by the Door; But run without his ſending, and clime up, or <hi>creepe</hi> in ſome other way; Though they be called Prophets. <hi>Jerem.</hi> 23.14,21.
+<hi>Joh.</hi> 10.1.</p>
+            <p n="2">2. By <hi>creeping,</hi> is alſo meant their ſubtilty in hiding their Doctrine, and mindes, with cloakes of guile, till they be recei<g ref="char:EOLhyphen"/>ved; And that is two wayes.</p>
+            <p n="1"> I. In hiding their grand opinion of ſlighting the Foundation and <hi>Corner-Stone;</hi> The Viſion of all, and preferring ſome other Do<g ref="char:EOLhyphen"/>ctrine <pb n="5" facs="tcp:113560:7"/>before it. <hi>Iſai.</hi>
+28.12.14,16. &amp; 29,10,11,12. <hi>Pſal.</hi> 118.22. <hi>Act.</hi> 4.11,12.
+2 <hi>Cor.</hi> 2.17. and 4.2.</p>
+            <p n="2"> II. In hiding their Intention, and Iſſue that will follow on the re<g ref="char:EOLhyphen"/>ceipt or their Teachings, which is <hi>to unſettle,</hi> and pervert them from the ſimplicity that is in Chriſt. 2 <hi>Cor.</hi>
+11.3,4.</p>
+            <p>To bring them in ſome Bondage under the Law of works.
+<hi>Gal.</hi> 1.6. &amp; 4.21.</p>
+            <p>To take off their Affections from ſpirituall Teachings, and ſin<g ref="char:EOLhyphen"/>cere Preachers of the Goſpel, and to gaine their Choice Affecti<g ref="char:EOLhyphen"/>ons to themſelves; and ſo to ſubdue them to their own Judgements, that they might be Lords of their faith. <hi>Gal.</hi> 4.17. All which till they be received; they colour over, and hide with good words, and fayre ſpeeches.
+<hi>Rom.</hi> 16.17,18. Pretences of Zeal, Love, and Devo<g ref="char:EOLhyphen"/>tion. <hi>Col.</hi>
+2.18. 2 <hi>Cor.</hi> 11.15. Promiſes of great Attainments, and li<g ref="char:EOLhyphen"/>berty. 2
+<hi>Pet.</hi> 2.19. 2 <hi>Cor.</hi> 11.3. Pretences of Spirit, and wreſting words of Scripture, and counterfeiting, as if the ſinceere Preachers of the Goſpel, ſaid as they doe, and had ſo written. 2 <hi>Theſ.</hi> 2.2. And through this ſubtilty, they winde and <hi>creep</hi> into houſes, or So<g ref="char:EOLhyphen"/>cieties of Beleevers.</p>
+            <p n="3"> III. By <hi>creeping</hi> is here meant, and intimated alſo, ſome neglect, and over-ſight in the Beleevers, eſpecially the Multitude of them, who if they had dilligently heeded the foundation, &amp; the ſavour, and Teach<g ref="char:EOLhyphen"/>ings of that Unction they received from Chriſt, and kept full eſti<g ref="char:EOLhyphen"/>mate thereof; They might have ſeen the Darknneſſe and unlikeneſſe of: the Teachings of theſe <hi>creepers</hi> thereto, and ſo how there was no need thereof to them. 1. <hi>Joh.</hi> 2.19,20,27.
+<hi>Gal.</hi> 3.1,2. <hi>Cor.</hi> 11.4. <hi>Gal.</hi> 2.4. <hi>Jude</hi> 4. And ſo had they conſulted with Chriſt, and re<g ref="char:EOLhyphen"/>ſorted to their overſeers, while the Church of Beleevers had the Power of Choyſe, and the Choyſe was of men, taught of God.</p>
+            <p>
+               <pb n="6" facs="tcp:113560:8"/>The Church then, as the woman <hi>cloathed with the Sunne, &amp;c. Rev.</hi> 12.1. Such might have been kept out, though in ſuch time, when the outward Court is left to the <hi>Gentiles,</hi> and the man of fin gets his ſeat therein, and gives forth his Lawes; Then are the
+<hi>houſes</hi> ſo weakned, That theſe <hi>Seducers</hi> come in openly enough, and the Witneſſes Propheſie in Sackcloth; And ſo the perill greater. <hi>Rev.</hi> 11.2,3.</p>
+            <p>And the Apoſtle doth not Prophecy: That in a full and out<g ref="char:EOLhyphen"/>ward ſenſe, in thoſe times they ſhall <hi>Creep,</hi> but ſaith, That of that ſort, there were in his owne time, that <hi>did then creep;</hi> For ſurely, elſe they had not been then admitted in the outward Aſſemblies of Beleevers to be Teachers, as in the <hi>evill times</hi> foretold they may; Though into the more ſpeciall fellowſhips of Beleeuers; They are fain't ſtill to uſe their <hi>Creeping.</hi>
+            </p>
+         </div>
+         <div n="3" type="section">
+            <p>3. <hi>And lead Captive,</hi>] This is their buſineſſe, and the worke they doe, and the effect of their Teachings; After they are received, and begin to be entertained, and eſteemed, which they laboured for; and then they begin to diſcover ſomething plainly their opinion, and in<g ref="char:EOLhyphen"/>tention, They then <hi>Lead Captive,</hi> they withdraw from ſimple and unfained Faith, and Confidence in Chriſt, and rejoycing in him on<g ref="char:EOLhyphen"/>ly. 2 <hi>Cor.</hi>
+11.3. <hi>Phil.</hi> 3.2,3. They pervert, and Trouble the minds of thoſe that were inclined to the right way. <hi>Gal.</hi> 3.3,5. &amp; 4.21. &amp; 5.1,4,8. &amp; 6.12. <hi>Prov.</hi> 9.15,16. And ſo entangle them with bondage un<g ref="char:EOLhyphen"/>der the <hi>law of Workes;</hi> then they under them, to their owne judge<g ref="char:EOLhyphen"/>ments, exalting themſelves, as knowing high things, and perſwa<g ref="char:EOLhyphen"/>ding their Diſciples, that in ſubmiſſion to them, they ſhall attaine perfection in holineſſe, and great Liberty. <hi>Gal.</hi> 4.17. 2 <hi>Cor.</hi> 11.15.
+<hi>Gal.</hi> 3.1,5. 2 <hi>Pet.</hi> 2.19.</p>
+            <p>And ſo <hi>they lead them Captive;</hi> This is their: work, and their bu<g ref="char:EOLhyphen"/>ſineſſe, and the effect of their Teaching.</p>
+         </div>
+         <div n="4" type="section">
+            <p>4. <hi>Silly Women, laden with ſinnes, lead away with divers Luſts<g ref="char:punc">▪</g> over learning, and never able to come to the knowledge of the Truth,</hi>] Here the Apoſtle ſets forth, with whom theſe
+<hi>Seducers</hi> prevaile, and who, and what they are that are ſeduced by them, and he ſets them <pb n="7" facs="tcp:113560:8"/>forth by divers Charracters meeting together on them. <hi>
+                  <g ref="char:V">Ʋ</g>iz.</hi> If they are filly women, ſo called; not ſo much in reſpect of the ſex, (as if all, or only females,) as in reſpect of their weakneſſe, in not ſtanding againſt the force of Aſſaults, and ſuffering themſelves to be overcome by ſuch ſeemings, and ſhaddowes, to part with that where<g ref="char:EOLhyphen"/>in they had ſeen and taſted ſubſtance, whether Male or Female; All is one; in reproof of their weakneſſe, they are called women; For how<g ref="char:EOLhyphen"/>ever in Nature, and in Humane, and Morall reſpects, there is male, and female, and which grace deſtroyeth not, but ordereth. <hi>Ephe.</hi> 5. &amp; 6. Yet in receipt, and enjoyment of the grace of God by union in Chriſt. There is no difference between Male and Female. <hi>Col.</hi> 3.10,11. So the like may be ſaid in reſpect of folly, weakneſſe, and loſſe by departing from Chriſt to another Doctrine.
+<hi>Gal.</hi> 5.4. And ſo theſe ſeduced ones, both Male, and Female, are called women, be<g ref="char:EOLhyphen"/>cauſe of their fillyneſſe, (Women not ſo able ordinarily to ſee and know the worth of a rare and rich Pearle, and Jewell, as men,) <hi>Why is there a price in the hand of a fool, to get wiſedome, and hee hath no heart.</hi> Prov. 17.16. Beſides the over-readineſſe to beleeve every word without tryall. <hi>Prov.</hi> 14.15. and herein their weakneſs, as <hi>Ezek.</hi> 16. When God had done ſo much for them, And yet they were drawne away by vanity. <hi>verſ.</hi> 13. <hi>How weake is thine heart, ſaith the Lord, ſeeing thou doſt all theſe things, The worke of an Imperious and Whoriſh woman;</hi> (yet were they both Male and Female.)</p>
+            <p>And ſo when the <hi>mighty are taken away, and babes and children rule the people.</hi> Iſai. 19.16 Jer. 30,37 &amp; 51.30. Iſa. 3.3,4. It is called <hi>Women ruling over you. Verſ.</hi> 12. And ſo on the other ſide. 1 <hi>Cor.</hi> 16.13. <hi>Watch yee, ſtand faſt in the Faith, quit you like men, be ſtrong,</hi> was ſpoken to all the Beleeving
+<hi>Corinthians,</hi> Male and Female; as heere for ſillyneſſe, and weakneſſe, in being turned from ſubſtance, by o<g ref="char:EOLhyphen"/>thers holding forth ſhaddows, both Male and Female, are called Women.</p>
+            <p n="2">2. <hi>They are laden with ſinnes,</hi> which cannot be underſtood of going on in divers open and known froms: for that would not have ſtood with the <hi>forme of godlyneſſe</hi> in theſe Seducers, who would ſcarce vovchſafe an open corverſe with ſuch, eſpecially in their Re<g ref="char:EOLhyphen"/>ligious Diſcourſe; Nay, they will fault others for ſuch converſing <pb n="8" facs="tcp:113560:9"/>with them. <hi>Mat.</hi> 9.10,14. <hi>Joh.</hi>
+7.48.49. But they are laden, and oppreſſed, and burthened with the riſings, and motions, and Accu<g ref="char:EOLhyphen"/>ſations of ſinnes, that by the ſtrength they have from the <hi>Law,</hi> Do<g ref="char:EOLhyphen"/>mineere in the Conſcience: That they are fearfull, not able to look up beleevingly, and take quiet in Chriſt. 1
+<hi>Cor.</hi> 15.56. <hi>Rom.</hi> 6.14. Though they have been lovingly envited thereto. <hi>Matt.</hi> 11.28. And they have heard of the great love of God in the gift of his Sonne; The ſalvation and Peace that he hath made, and the life that is in him; And that in beleeving, <hi>they ſhall Receive Remiſſion of ſinnes, and Eternall Life;</hi> and been helped to beleeve, and like this report; yet to beleeve in him, and quiet their hearts in him: They dare not; They cannot; oh the ſecret thoughts of Worldlineſſe, uncleanneſſe, wrath, diſcontent; yea Pride and Atheiſme, with ſome motions and Temptations thereunto! Oh the hardneſſe and Impenitence of heart! The deadneſſe too, and wandrings in Prayer, hearing the Word, &amp;c. And till they be more humbled, and purged, and better quallifyed, and enlarged, They Dare not; They cannot, They will not beleeve in Chriſt: And though in the Goſpel it be teſtified to them; That if they did ſo honour him in the word of grace, or report of the Goſpel: They have heard, and in ſome meaſure beleeved, as to beleive, and quiet their hearts in him, and accept Chriſt for Remiſſion of ſinnes; Righteouſneſſe, Holineſſe, and life; They ſhould not on<g ref="char:EOLhyphen"/>ly receive Remiſſion of ſinnes by the Spirits application of his blood, but alſo purging, and operations of Spirit, that would humble, re<g ref="char:EOLhyphen"/>new, ſanctifie and confirme them to Chriſt. <hi>Iſa</hi> 28.12,16. &amp; 30.15,16,18. <hi>Joh.</hi>
+7.37,38,39. 2 <hi>Cor.</hi> 3.3.18. <hi>Tit.</hi> 3.4,5.</p>
+            <p>
+               <hi>And that till they firſt beleeve in Him, Theſe things will never be rightly wrought in them.</hi> Joh. 15.4,5. Yet they ſay, They muſt have them firſt, before they can beleeve; And though in attention to the word of <hi>grace;</hi> They have met with ſome ſweet taſtes, and hints of eaſe, and Refreſhing, encouraging to beleeve, and divers examples of others, as much laden as themſelves, in beleeving helped: yet may they be complained of. How long will it be ere they beleeve? <hi>Numb.</hi> 14.11. This their unbelief, their great ſinne, that holds them under all their other ſinnes, is yet leaſt complained of; but the for<g ref="char:EOLhyphen"/>mer is their burthen, whence they are ever, and anon in heavy <pb n="9" facs="tcp:113560:9"/>Doubts, and feares: And theſe are apt for the Seducers, with their <hi>forme of godlyneſſe,</hi> and Precepts, and law of works to work upon; promiſing them great Freedome that waye, and in meane ſeaſon, That their troubled condition is better then theirs, that are ſo con<g ref="char:EOLhyphen"/>fident, and that the Doubting faith is the beſt faith; And ſo theſe ſo laden with ſinne, are moſt eaſily captived by them.</p>
+            <p n="3">3. <hi>Lead away with divers Luſts,</hi>] This is that which made them ſo weake, and gives ſuch an Advantage to the <hi>Seducers,</hi> to captive them, and that through which they are led away; They have <hi>divers luſts;</hi> They have a luſt or deſire, <hi>that God would approve and ſpeake Peace.</hi> They would have Eternall Life, though they doe not whol<g ref="char:EOLhyphen"/>ly ſubmit to the way. <hi>Mat.</hi> 19.16,27. <hi>Joh.</hi> 5.40.</p>
+            <p>They alſo deſire to be approved of ſuch as have taught the Goſpel to them: And they deſire to be approved of theſe
+<hi>Seducers,</hi> becauſe of their <hi>forme of godlineſſe,</hi> and zeal, and pretence of ſtrictneſſe in du<g ref="char:EOLhyphen"/>ties, whereby they fault all that are not as they. Thus loving the praiſe of men, and ſeeking Approbation from them, and not ſingly that which comes from God alone: This diverſity of their Luſts ſtops them from beleeving in Chriſt: And turnes them aſide from thoſe that ſpeake only in his Name. And apts them for
+<hi>Seducers</hi> that ſpeak of themſelves, and ſo they are led away.
+<hi>Joh.</hi> 5.4,44. &amp; 7.46,53. <hi>&amp;</hi> 12.42,43.</p>
+            <p n="4">4. <hi>They are ever learning, and never able to come to the knowledge of the Truth:</hi>] They are ever Learning, oft hearing, and queſtioning a<g ref="char:EOLhyphen"/>bout the truth of the Goſpel, that ſets forth Chriſt; But they re<g ref="char:EOLhyphen"/>ceive not the love of the Truth, They accept it not, that Chriſt in the Goſpel offereth them; <hi>That in letting goe other delights, wayes, and confidences, caſting themſelves on him in beleeving, they ſhall finde in him, and receive through him pardon, juſtification, renewing, ſancti<g ref="char:EOLhyphen"/>fication, &amp;c. which not Accepting, they are in ſtead of beleeving, ſtill queſtioning, and asking both of one, and another of the Children of the</hi> Free-woman, <hi>and of the Children of the</hi> Bond-woman; <hi>And ſo abi<g ref="char:EOLhyphen"/>ding under the Accuſation of ſinne by the Law; or if ſome eaſe, yet luſt<g ref="char:EOLhyphen"/>ing after Approbation on both ſides; They ſo entangle themſelves; That they are at no time able to come to the knowledge of the Truth; and ſo fits themſelves for deluſions.</hi> 2 Theſſ. 2.10. 1 Joh. 2.19,20,27,28.</p>
+            <p>
+               <pb n="10" facs="tcp:113560:10"/>That in Jeſus Chriſt, there is a Redemption wrought, and Life obtained, and that onely through the freeneſſe of his grace; in be<g ref="char:EOLhyphen"/>leeving in Him, Remiſſion of ſinnes, and Juſtification is received, and he righteouſneſſe to the Beleever: ſome of them in ſome meaſure underſtand, and rejoyce for <hi>Gal.</hi> 3.1.5 &amp; 4.15.</p>
+            <p>But that he is Sanctification to the Beleevers, and hath taken on himſelf, by Spirit, to worke Salvation in them; To purge, renew, ſanctify, and perfect all that concerneth them. 1 <hi>Theſſ.</hi> 5.24.
+<hi>Iſai.</hi> 26.12. <hi>Pſal.</hi> 138.8.</p>
+            <p>And that in beleeving on him, ſo as through the beliefe of his grace in the former; They are united to him in Dependence on him, for the latter; They ſhall receive it, and hee will effect it in due ſeaſon.
+<hi>Rom.</hi> 4.24,25. and 5.1,11.</p>
+            <p>This full forme of CHRIST is not in them; They are no whit experimented in this Knowledge; nor ſo perſwaded of the truth, whence they are ready to receive the Doctrine of the Sedu<g ref="char:EOLhyphen"/>cers, to attaine this Sanctification by Workes, and obſervances of the law of Workes. <hi>Gal.</hi>
+4.19. <hi>&amp;</hi> 5.1,5,8. <hi>&amp;</hi> 1.9. 2 Cor. 11.15.</p>
+            <p>And theſe weake unſetled ones are they, with whom the Sedu<g ref="char:EOLhyphen"/>cers prevaile.</p>
+         </div>
+         <div n="5" type="section">
+            <p>5. <hi>Now as</hi> Jannes <hi>and</hi> Jambres <hi>withſtood</hi> Moſes; <hi>ſo doe theſe alſo reſiſt the Truth;</hi>] This is the manner of their working, for accom<g ref="char:EOLhyphen"/>pliſhing their buſineſſe, in which, two things are obſerveable. <hi>Viz.</hi>
+            </p>
+            <p n="1">1. That they reſiſt the Truth; That is the Goſpel, and the Truth of CHRIST in the Goſpel: yet rightly to underſtand this buſi<g ref="char:EOLhyphen"/>neſſe, wee muſt diſtinguiſh, as the Apoſtle doth, betweene the time in which the Apoſtle wrote, and while they and their Labourers watched over the Churches, while Anti-Chriſt could get no ſeat, nor Authority, ſo much as in the outward Court thereof, In which time were yet ſome perrills by theſe Seducers more ſecretly creeping in. v. 6. 2
+<hi>Theſ.</hi> 2.7,8. 1 <hi>Joh.</hi> 2.18,19. And the times of which the Apoſtle propheſyeth. v. 1. chap. 4.3. In which through the
+<hi>Gentiles</hi> comming into the outward Court, Antichriſt ſhould get a ſeat, and Authority therein. <hi>Rev.</hi> 11.1.2. 2 <hi>Theſ.</hi>
+2.4.</p>
+            <p>And ſo the Seducers come more openly, and boldly. 2
+<hi>Theſſ.</hi> 2.10,11. being alſo more evill, growing worſe, and worſe. 1 <hi>Tim.</hi> 3.13. and ſo the times more perrillous. Verſ. 1. Chap. 4.3.</p>
+            <p>
+               <pb n="11" facs="tcp:113560:10"/>In the Apoſtles times; they did not denie the extent of the Ran<g ref="char:EOLhyphen"/>ſome, nor Juſtification freely by the grace of God in Chriſt, by faith only, to be received, (as the Phariſaicall Did,) but onely the ſo freely preaching the Goſpel to All men before; or having fellow<g ref="char:EOLhyphen"/>ſhip with them, and they not yet undered to the obſervances of the
+<hi>Moſaicall Law.</hi> And alſo, denying Sanctification of Body and ſoul, preſervation in Grace, Conformity to Chriſt, Juſtification of up<g ref="char:EOLhyphen"/>rightneſſe to God, and ſo growth to perfection, to be had by Faith, in Dependence on God in Chriſt, for effecting it, without being un<g ref="char:EOLhyphen"/>dered to the workes of the Law, for that buſineſſe. 1 <hi>Theſſ.</hi> 2.1 6.
+<hi>Gal.</hi> 2.9.20. and 3.1,2,3,4,5. 2 <hi>Cor.</hi> 11.3,4,15.</p>
+            <p>And in denying both theſe, they denyed the Truth; even the Go<g ref="char:EOLhyphen"/>ſpell, and Chriſt in the Goſpel, and ſo the power of godli<g ref="char:EOLhyphen"/>neſſe.</p>
+            <p>But in the more perrilous times prophecyed of; They will pro<g ref="char:EOLhyphen"/>ceed further; many denying both theſe parts of truth, which they confeſſed: ſome denying Juſtification before God, to be onely by grace received by Faith; Affirming it to be by mans own workes, to<g ref="char:EOLhyphen"/>gether with Faith. 1
+<hi>Tim.</hi> 6.6,7. 2 <hi>Tim.</hi> 4.3,4.</p>
+            <p>Others denying the entent of the Ranſome; According to the plaine Affirmations of the Goſpel; And thereby ſhutting the doore of Repentance againſt moſt men, and ſo teaching them to denie <hi>the Lord that bought them.</hi> 2 Pet. 2.1,2.</p>
+            <p>And both ſort denying that Portion of the Spirit, given with ſu<g ref="char:EOLhyphen"/>pernaturall light, motion, and power to teach, and witneſſe the things of Chriſt; and worke his minde in the Beleevers, which hee giveth ſince his comming in the Fleſh. 2 <hi>Pet.</hi> 1.19. &amp; 3.17,18. 1 <hi>Joh.</hi>
+3.24. &amp; 4.1,6. <hi>Jude</hi> 19.</p>
+            <p n="2">2. <hi>That they reſiſt the truth; as</hi> Jannes
+<hi>and</hi> Jambres <hi>withſtood</hi> Mo<g ref="char:EOLhyphen"/>ſes. <hi>Firſt;</hi> In their pride, and high-mindedneſſe (as the <hi>Magicians</hi> thought by Enchantment to doe as much as <hi>Moſes</hi> by the <hi>Power</hi> of GOD; ſo) they preſume, by their fleſhly Wiſedome &amp; Knowledge, to ſet forth the meaning of the Goſpel, and the wayes of God, as much, and as well, as thoſe that are through the word of Grace en<g ref="char:EOLhyphen"/>lightened, and taught of God, and have the word of Grace, and ex<g ref="char:EOLhyphen"/>periments of his goodneſſe in their heart. <hi>Joh.</hi> 11.12. <hi>Col.</hi> 2.18. <hi>Revel.</hi> 9.1,2.</p>
+            <p>
+               <pb n="12" facs="tcp:113560:11"/>Being ready to reply againſt the Teachers of the Truth, as <hi>Zede<g ref="char:EOLhyphen"/>kiah,</hi> the ſonne of <hi>Chenaanah.</hi> 1 King.
+22.24. <hi>Which way went the Spirit of the Lord from me to ſpeake unto thee?</hi>
+            </p>
+            <p>Secondly; By their ſubtilty, and craft, in uſe of their fleſhly witt, and skill; As the <hi>Magicians,</hi> when <hi>Moſes</hi> uſed only the Word of the Lord, and held forth his Rod: They uſed ſorceries and enchant<g ref="char:EOLhyphen"/>ments; So when the Servants of God uſe nothing but Scripture, and Scripture Interpretations, and hold forth the Word of Life in, and according to the plaine ſayings of the Goſpel; Theſe Sedu<g ref="char:EOLhyphen"/>cers make uſe of humane, and fleſhly Wiſedome, and uſe the enti<g ref="char:EOLhyphen"/>ſing words of mans Wiſedome. 1 <hi>Cor.</hi> 2.1,4.</p>
+            <p>And not allowing the Goſpel to be delivered, vnderſtood and be<g ref="char:EOLhyphen"/>leeved, as it is in the ſtill and plaine ſayings thereof; And aſhamed with plaine and open face; (few ſo brazen-faced,) to denie, and con<g ref="char:EOLhyphen"/>tradict the ſame; To helpe all, and colour their oppoſition, and deceive their hearers; They frame out of it, here a Precept, and there a Precept, one unto another, To teach and enjoyne, and then adde here a line, and there a line, one upon another, to comfort. <hi>Iſai.</hi> 28.12,13. And having in their heart no Goſpel that is full, true and cer<g ref="char:EOLhyphen"/>taine, to Preach plainly, and poſitively, as true, before men beleeve; That for the goodneſſe and truth of it, men might beleeve. 1 <hi>Cor.</hi> 9.26. Nor liking it, that others ſhould have ſuch a Goſpel, and ſo preach it; They are full of ſubtill Queſtions, and ſurmizes of ab<g ref="char:EOLhyphen"/>ſurdities; if the plaine ſayings of the Coſpel be underſtood in their own expreſſions; and therefore deviſe them another meaning, with their faire gloſſes. <hi>Mat.</hi> 22,23.28. 1
+<hi>Tim.</hi> 1.6. 2 <hi>Tim.</hi> 2.14.16.</p>
+            <p>And thirdly; with this their pride, and cunning, they counter<g ref="char:EOLhyphen"/>feit by their Teachings, the doing of the ſame things, that the ſer<g ref="char:EOLhyphen"/>vants of the Truth in their Miniſtration doe, as convincing men of ſinne, making them to loath earthy pleaſures, bringing them to much faſting, Prayer, Zeal, and many duties. <hi>Rom.</hi> 10.3. 1 <hi>Tim.</hi> 1.7.</p>
+            <p>And ſo beguile, and deceive many: And laſtly, they get into, and have Authority in great Mens, and Princes Courts, and by all, ſeek to hinder People from acknowledging the power of God in the Go<g ref="char:EOLhyphen"/>ſpel. <hi>Act.</hi>
+13.8. even as the <hi>Magicians</hi> did with <hi>Pharach,</hi> and the
+<pb n="13" facs="tcp:113560:11"/>
+               <hi>Egyptians,</hi> whence alſo theſe <hi>Seducers</hi> are compared too, and called in the Scriptures, Inchanters and Witches.
+<hi>Iſa.</hi> 8.18,19,20. and thoſe that are ſeduced by them are ſaid to be bewitched. <hi>Gal.</hi> 3.1.</p>
+         </div>
+         <div n="6" type="section">
+            <p>6. <hi>Men of corrupt mindes, reprobate (or of no Judgement) concer<g ref="char:EOLhyphen"/>ning the Faith.</hi>] Here is the true, and plaine Carracter of theſe
+<hi>Se<g ref="char:EOLhyphen"/>ducers,</hi> however they cloak themſelves, in which two things are ob<g ref="char:EOLhyphen"/>ſervable.</p>
+            <p n="1">1. <hi>They are of corrupt minds, and that both in the conception, and inclination thereof.</hi>
+            </p>
+            <p>
+               <hi>Firſt, In the conception of their minds; They are corrupt,</hi> in that.</p>
+            <p n="1"> I. They think that their <hi>Humane,</hi> and
+<hi>Artificiall</hi> Knowledge, Wiſe<g ref="char:EOLhyphen"/>dome, and Prudence, in the livingneſſe thereof, is an help, and handmaid meet to be Sanctified, to help to finde out the Spirituall Knowledge of the <hi>Deep</hi> things of GOD, that are in CHRIST, to beſtow on his Choſen, contrary to the Teſtimony of the <hi>Holy Ghoſt,</hi> That ſaith; <hi>They are onely diſcerned by the enlightning, and Revelati<g ref="char:EOLhyphen"/>on of the Spirit, and that that other Wiſedome, and Knowledge ſhall be confounded and brought to naught, before they can be rightly uſed for ex<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ſſion.</hi> Matt. 11.25. &amp; 16,17. &amp; 21.16. 1 Cor.
+1.19,20,27. and 2.<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.9,14.</p>
+            <p n="2"> II. They thinke, the only neceſſary way for them to Proſper in their Miniſtration, is to be Alive, and have great eſteeme in the hearts of ſuch as heare them, for great Learning, Knowledge, and Skill, con<g ref="char:EOLhyphen"/>trary to the Judgement, and experiment of thoſe taught of GOD, who have Abaſed themſelves in that reſpect, and affirmed that when Death wrought in them, life wrought in others. <hi>Prov.</hi> 30.2,3. 2 <hi>Cor.</hi>
+4,5,12.</p>
+            <p n="3">
+               <pb n="14" facs="tcp:113560:12"/> III. They are not of one mind; ſome more groſſe, as the <hi>Saduces,</hi> and ſome more refined as the
+<hi>Phariſees</hi> in their conception of the way.</p>
+            <p>Secondly, <hi>In the inclination of their mindes, not to exilt Chriſt onely, but themſelves, as Lords and Rabbyes, liking it beſt that the Peo<g ref="char:EOLhyphen"/>ple ſhould reſt on their Judgements for points of Faith, and interpreta<g ref="char:EOLhyphen"/>tion of Scripture, and not to preſume to know beyond; contrary to the <g ref="char:V">Ʋ</g>pright, that were not content, till they knew as themſelves knew, and had their evidence from God, that they might not depend on them, and would have them ſtill be trying by Scripture, and wait for that Know<g ref="char:EOLhyphen"/>ledge; and rejoyced when they had it.</hi> 2 Cor. 4.5. Joh. 3.29,30. 2 <hi>Pet.</hi> 1.18,19,20.
+<hi>beſides the glary, honour, wealth, and great places, they Deſire, and ſeek for themſelves.</hi> Gal. 4.17.</p>
+            <p>From which corrupt Mindes, proceed their corrupt reaſoning, and Practice; Firſt, Their corrupt reaſoning, and Arguments: can it be, that ſo many great Learned and Godly Devines, Miniſters, and Profeſſors,
+<hi>Annas</hi> and <hi>Cayaphas;</hi> The high Prieſts; The Prieſts and Elders; The Scribes and <hi>Phariſees, that ſit in</hi> Moſes
+<hi>Chayre;</hi> and all their Diſciples, whom the great Church ſo long Reverenced, ſhould be ignorant of the Truth, and erre; and that a Carpenter, the Sonne of a Carpenter; and a few Fiſhers, a Publican, a Tent<g ref="char:EOLhyphen"/>maker; men that are <hi>Gallileans,</hi> whom ſcarce any follow, but the common Illiterate People, that know not the Law, ſhould k<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>w the mind of God, and be in the Truth? <hi>Joh.</hi>
+7.47,52. As the Anti<g ref="char:EOLhyphen"/>chriſtian Brood reaſon.</p>
+            <p>
+               <hi>Is it likely ſo many Godly Fathers, Divines, Biſhops, Counſells, The great Church for ſo many Hundreth yeares; ſhould erre, and a few deſpi<g ref="char:EOLhyphen"/>ſed upſtarts ſhould be in the Truth?</hi>
+            </p>
+            <p n="2">
+               <hi>Secondly;</hi> Their corrupt practiſe of worſhipping Angels, <hi>(Meſſen<g ref="char:EOLhyphen"/>gers,)</hi> Adoring theſe great learned Officers, as if they could not erre; and ſo to be Depended on for all knowledge, and certainty of the word of Truth, not preſuming to know; but what they have declared, nor looking for further light then in their ſayings; And ſo calling them the Church; Thereby (as their Fathers the <hi>Phariſees</hi>
+               <pb n="15" facs="tcp:113560:12"/>of old, ſhaddowed Chriſt, with two heads, by having two High Prieſts,) making Chriſt two Bodies, or Churches, one Spirituall; another Secular, one of the Clergy; another of the Laity; one of Publike Officers, and Members, Another of private members, without Office, that the one may depend on the other, and neither hold the head, and both neglect the True Body. <hi>Col.</hi> 2.18,20. Con<g ref="char:EOLhyphen"/>trary to 1 <hi>Cor.</hi> 12. <hi>Chap.</hi> like that 1 <hi>Cor.</hi> 1.12.</p>
+            <p n="2">2. They are Reprobate, and of no judgement concerning the Faith concerning Letters, Tongues, Etimology of words, Philoſo<g ref="char:EOLhyphen"/>phy, Logick, diverſity of Bookes, Hiſtories, Genealogies, Moralli<g ref="char:EOLhyphen"/>ties, To move ſubtill Queſtions; To anſwer knotty Queſtions; To Dipute about Law, &amp;c. They may be of great skill. 1 <hi>Cor.</hi> 1.19,20. 1 <hi>Tim.</hi>
+1,2.</p>
+            <p>But concerning the Faith, in that they are of no judgement; whether we reſpect the Doctrine; and object of Faith, or the Spirit, Grace, and opperation of Faith: For; How all men ſhould be re<g ref="char:EOLhyphen"/>conciled to God in Chriſt, and yet moſt men in themſelves, and their own hearts, enemies to Chriſt, and ſo to God ſtill? 2 <hi>Cor.</hi> 5.19,20. How Chriſt ſhould have paid the price for, and bought all men into his diſpoſe, and yet juſtly Judge many of them to eternall Death? <hi>Rom.</hi> 14.8,12. How enough ſhould be done for <hi>All men,</hi> by Chriſt, that they might be ſaved, and yet many not infallible, atter<g ref="char:EOLhyphen"/>narly ſaved? <hi>Joh.</hi>
+3.17,19. How man being dead in ſinnes, &amp;c. And having no Power or freedome of will, to chooſe life, and yet ſo much done by Chriſt, to make his Will free, That the fault of his not be<g ref="char:EOLhyphen"/>ing
+<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>lly <hi>ſaved,</hi> ſhould be found in his owne will, and not in the Will of God, and Chriſt? <hi>Joh.</hi>
+3.17,19. &amp; 1.9. <hi>Prov.</hi> 1.23,26. <hi>Ezek.</hi> 18.23.32.
+<hi>&amp;</hi> 33.11. How there ſhould be ſuch a Will in God, <hi>To have all men ſaved, and then brought to acknowledge the truth; And that Chriſt ſhould Accompliſh this his will, and condemne any to Eternall Death?</hi> 1 Tim. 2.4,5,6. 2 <hi>Pet.</hi> 2.1.</p>
+            <p>How God ſhould Order all things in his Counſells, and work
+<hi>all things according to the Counſell of his owne Will;</hi> and yet not ſo ne<g ref="char:EOLhyphen"/>ceſſitate any to deſtruction; But that their <hi>deſtruction is of themſelves;</hi> They looſe their owne ſouls, and bring upon themſelves Deſtructi<g ref="char:EOLhyphen"/>on? <hi>Epheſ.</hi> 1.11. <hi>Hoſ.</hi> 13.9.
+<hi>Mat.</hi> 16.26. 2 <hi>Pet.</hi> 2.1,2.</p>
+            <p>
+               <pb n="16" facs="tcp:113560:13"/>They cannot rightly conceive, or declare: Againe, <hi>in the diſtin<g ref="char:EOLhyphen"/>ction, the Spirit in the Scripture maketh between the Salvation, Ieſus Chriſt wrought in his owne body with God for men.</hi>
+1 Pet. 2.24. <hi>And the ſalvation which in Application of the former; hee by his Spirit work<g ref="char:EOLhyphen"/>eth in men to God.</hi> Revel. 5.9. 2 Cor. 5.18.</p>
+            <p>
+               <hi>The Salvation he came down from heaven, &amp; was abaſed to work, that he might bring us to God.</hi> Joh. 16.28. Heb. 10.1,10. 1
+<hi>Pet.</hi> 3.18. <hi>And the Salvation, he aſcended to heaven, was glorifyed to Worke, in making ſonnes, and bringing them to God.</hi> Pſal.
+68.18.20. Act. <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>5.31.32. Be<g ref="char:EOLhyphen"/>tween the divers ends of Chriſt, in laying down his Life.
+<list>
+                  <item>1. <hi>To be a Ranſome, and Propitiation for ſinnes.</hi> Heb. 9.22. Rom. 3.24,25.</item>
+                  <item>2. <hi>To ſeale, and confirme the New Teſtament of Precious Promiſes.</hi> Heb. 9.15,16,17.</item>
+                  <item>3. <hi>To be an example to us of Sufferings.</hi> 1 Pet.
+2.23. <hi>And the diffe<g ref="char:EOLhyphen"/>rent extent of theſe ends.</hi> 1 Joh.
+2.1,2,3.</item>
+               </list>
+            </p>
+            <p>
+               <hi>And between the miſſion of Chriſt, To be the Saviour of the World, in Dying, and giving himſelf<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> a Ranſome for All.</hi> 1 Joh. 4.14. Joh. 1.29. and 3.17. <hi>and his Miſſion to Preach the Goſpel, and confirme it with Miracles, which was to the Iewes, and for the Circumciſion.</hi> Matt. 15.24. Rom.
+18.8,9.</p>
+            <p>
+               <hi>Between his giving Himſelf to die, and offer Sacrifice, and his gi<g ref="char:EOLhyphen"/>ving himſelf to Advocate, and apply the vertue of his Sacrifice.</hi>
+1 Tim. 2.6. 1 Joh. 2.1,2. Ephe. 5.25,26,27.</p>
+            <p>
+               <hi>Between his Purchaſing of his Father, by blood-ſhedding.</hi> Rom. 14.9. 2 Pet.
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.1.</p>
+            <p>
+               <hi>And the Purchaſing from among men, by his ſpirituall Application of his blood that was ſhed.</hi> Rev. 5.9. Act. 20.28.</p>
+            <p>
+               <hi>Between that which is full, compleat and true, in Chriſt for</hi> All men, <hi>That they may beleeve, and in beleeving, receive it.</hi> Rom. 3.23,25. and 5.18. 1 Joh. 5.10,11,12. <hi>And theſe high and peculiar Priviledges in Chriſt, further to diſpenſe to ſuch as through grace, are enabled to Beleeve,</hi> Joh. 1.12,13. and 7.36.39. <hi>Yea, between the extent and ſcope of the generall Affirmations of the Goſpel, as Propoſitions for Faith in the Third Perſon.</hi> Joh.
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.19.
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. Tim. 2.6. <hi>and Applicative Affirmations, in Firſt or Second Perſon.</hi> Rom. 8.3<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. <hi>Gal.</hi> 2.20. In all, or moſt of theſe
+<pb n="17" facs="tcp:113560:13"/>Diſtinctions, they are ignorant, and confound them in one, as of like large extent; whence iſſues their ſetting the Scriptures at va<g ref="char:EOLhyphen"/>viance, to be reconciled by their proofleſſe Gloſſes; And their corrupt opinion, that all Chriſt dyed for, muſt of neceſſity be eter<g ref="char:EOLhyphen"/>nally ſaved, and their falſe conjectures and Reports of thoſe that be<g ref="char:EOLhyphen"/>leeve CHRIST <hi>gave himſelf a Ranſome for All Men,</hi> as that they hold men by nature to have <hi>Free-Will;</hi> or that Men may live as they liſt, &amp;c. And as they are thus void of Judgement about the Do<g ref="char:EOLhyphen"/>ctrine, and object of Faith; ſo alſo about the Spirit, grace, and op<g ref="char:EOLhyphen"/>peration of Faith. How by the very evidence of the Spirit, in the appearance of Grace, manifeſted in the Blood and Sacrifice of Chriſt; and fulneſſe in him; A man ſhould be overcome to beleeve, and therein receive remiſſion of ſinnes, Peace with God, and hope, without encouragement from any works, frames, or quallifications of his own, or uſe of humane reaſonings, or thoughts to help to faith. <hi>Tit.</hi> 3.4,5,7. <hi>Epheſ.</hi> 2.8.
+<hi>Rom.</hi> 4.25. <hi>&amp;</hi> 5.1. 2 <hi>Joh.</hi> 3.5.</p>
+            <p>How through the Spirit, in this very beleeving, a man ſhould be brought to depend on Chriſt, for ſubduing luſts, and Satan, for San<g ref="char:EOLhyphen"/>ctification, preſervation, in grace; The precious Promiſes, and eter<g ref="char:EOLhyphen"/>nall life, without his owne humane reaſonings, workings, and ſelf application of Promiſes. <hi>Rom.</hi> 5.11. 1 <hi>Joh.</hi> 2.24,25.
+<hi>Zach.</hi> 4.6,7. <hi>Gal.</hi> 5.5. 1 <hi>Theſſ.</hi> 5.24.</p>
+            <p>How in this confident Beleeving, the Spirit writes the Law of grace in the heart, and by Diſcoverie of glorious Grace in Chriſt, Takes off from earthy Excellencies, Melts, Humbles, Renewes, and Conformes to the likeneſſe of Chriſt, and fills with ſpirituall moti<g ref="char:EOLhyphen"/>ons, and fruits, leading into all Truth, and unto all Services of Charity, without a mans own helpfulneſſe of him by workings af<g ref="char:EOLhyphen"/>ter the Law of workes, and yet with no contrariety to it. <hi>Phil.</hi> 3.3,9. 2 Cor. 3.3.18. <hi>Gal.</hi>
+5.16.18,22,23. <hi>and</hi> 6.8. <hi>Joh.</hi> 16.13,14. <hi>Rom.</hi>
+8.2.14.</p>
+            <p>How by abiding in this Faith, love ſhall work out all righteouſ<g ref="char:EOLhyphen"/>neſſe, that law requireth in a free bringing it forth, and the Beleever grow in Sanctification, and fruitfulneſſe, without being undered to the Law of Workes, to bring it forth; Yet having Commande<g ref="char:EOLhyphen"/>ments as Servants, to Order the exerciſe of Charity. <hi>Rom.</hi> 13.10. <pb n="18" facs="tcp:113560:14"/>2
+<hi>Cor.</hi> 5.14. <hi>Gal.</hi> 5.13,18. <hi>Joh.</hi> 15.1.10. Of theſe things they are ig<g ref="char:EOLhyphen"/>norant, and of no Judgement, whence they make uſe of Arguments and Reaſons, from frames, and quallifications to make up Faith. 2 Cor. 10.7.12.18. And turne aſide to be Teachers and impoſers of the Law, for Sanctification. 1 <hi>Tim.</hi> 1.5.6,7.</p>
+            <p>That nothing be ſaid of thoſe higher, and more myſterious Com<g ref="char:EOLhyphen"/>munications of Spirit, through Faith, in which the Beleever is brought to ſee within the Vaile, To receive the heavenly Oracles, To ſee unexpreſſible beauty, and receive unutterable entercourſes of Love, &amp;c. 1 <hi>Cor.</hi> 2.9. <hi>Phil.</hi> 3.20. <hi>Cant.</hi> 1,2,
+<hi>&amp;c.</hi>
+            </p>
+            <p>The very uttering of the experiments whereof; Theſe
+<hi>Seducers</hi> are ſuch Strangers to them, that they count them follyes, call them Sattannicall Deluſions, and Enthuſiaſmes, and Diſtempered Fren<g ref="char:EOLhyphen"/>zies. <hi>Joh.</hi> 7.20. <hi>Act.</hi> 26.24. 1 <hi>Cor.</hi> 2.14.</p>
+            <p>And thus are they marked out, <hi>To be of corrupt mindes, and of no Judgement concerning the Faith.</hi>
+            </p>
+         </div>
+         <div n="7" type="section">
+            <p>7. <hi>But they ſhall proceed no further;</hi>] Here is their period, or full ſtop: The extent of their Worke; Both in what they ſhall doe, and with whom they ſhall prevaile, to ſeduce and leade them cap<g ref="char:EOLhyphen"/>tive.</p>
+            <p n="1">1. The utmoſt of their Worke, is but to trouble, and con<g ref="char:EOLhyphen"/>vince of ſinne, To preſſe to Duties, and helpe to ſuch hopes as are ſtill under queſtion, and in the Iſſue, gender to bondage, and Cap<g ref="char:EOLhyphen"/>tive to the Judgement of the Seducers: This is the utmoſt of their worke; That they may be ſtill admiring, and relying on them alſo. <hi>Gal.</hi>
+4.17.22,31. &amp;. 5.8,12. <hi>Rom.</hi> 7.9. <hi>Phil.</hi> 3.1,2,7.</p>
+            <p>But receipt of Spirit, and freedome in Chriſt, and experiment of fellowſhip with Chriſt, is not received in their Miniſtration.
+<hi>Gal.</hi> 3.1,5. &amp; 5.1,3.</p>
+            <p n="2">2. The utmoſt of their prevailing, is onely with thoſe that are yet unſtable in the Faith, and luſting after approbation of men; whence, as thoſe that are ſtable, and ſtedfaſt, are likened to men, and called men. 1 <hi>Cor.</hi> 16.13.</p>
+            <p>So theſe unſtable Ones, that are turned aſide, are compared to Women, and called <hi>Women;</hi> And ſo the Apoſtle Intimates the
+<hi>Gallatians</hi> turning aſide, to be for want of the forme of CHRIST,
+<pb n="19" facs="tcp:113560:14"/>in them. <hi>Gal.</hi> 4.19. And preferre faith; they are ſuch as are un<g ref="char:EOLhyphen"/>learned, (not taught of God: as <hi>Iſai.</hi> 34.13,17.) And Unſtable (in the Faith,) That pervert the Scriptures, to their Deſtruction; And ſuch they are, that fall from the Doctrine; In which their ſted<g ref="char:EOLhyphen"/>faſtneſſe is, and might be attained; and are ſo carryed away with the errour of the wicked. 2 <hi>Pet.</hi> 3.16,17,18.</p>
+            <p>With none but ſuch ſhall they prevaile; They ſhall proceed no further.</p>
+         </div>
+         <div n="8" type="section">
+            <p>8. <hi>But their folly ſhall be manifeſt to all men, as theirs alſo was;</hi>] Here is the laſt Iſſue of their buſineſſe; And that is, when they ſtill at<g ref="char:EOLhyphen"/>tempt, as the Magicians Did to proceed to doe the ſame things that God by his ſervants doth: Their folly appears.</p>
+            <p n="1">1. In their Attempting ſo to preach Goſpel, as to bring their ſeduced, and Imbondaged from their bondage, and into the King<g ref="char:EOLhyphen"/>dome, and Liberty of CHRIST; There they fall ſhort, and turne a<g ref="char:EOLhyphen"/>ſide to <hi>vaine Janglings,</hi> Fables, Genealogyes, and ſtrive about Words, ſaying, and affirming, that they underſtand not; and are in many things, ever and anon unſaying againe. 1 <hi>Tim.</hi> 1.6. <hi>&amp;</hi> 4,7. <hi>&amp;</hi>
+6.4,5,20. 2 <hi>Tim.</hi> 2.14,15. Wherein their folly becomes ma<g ref="char:EOLhyphen"/>nifeſt.</p>
+            <p n="2">2. In their deaſings with thoſe, who experimentally know, and are eſtabliſhed in the Faith; they both faile of their purpoſe; and their folly appeares to them, and may by them be made mani<g ref="char:EOLhyphen"/>feſt to others; and in due ſeaſon ſhall be manifeſt to <hi>All Men.</hi> 1. Joh.
+2.18,28. <hi>Iſai.</hi> 60.14.</p>
+            <p>And thus, as this place may be found opened by, and agreeing with other places of Scripture, are theſe Seducers diſcovered; that they may be knowne.</p>
+            <p>Yet I know, There is one expoſition of the Word <hi>Houſes</hi> here, by which, ſome would turne all aſide: Namely.</p>
+            <p>
+               <hi>That by</hi> HOUSES, <hi>are meant</hi> PRIVATE-HOUSES, <hi>or mens Divelling Houſes, built of Timber and Clay, Lime, and ſtone, &amp;c.</hi>
+            </p>
+            <p>
+               <pb n="20" facs="tcp:113560:15"/>Though I ſuppoſe, they conceive theſe to have theire Denomi<g ref="char:EOLhyphen"/>nation from the houſe, houſhold, or Family Inhabiting in them, elſe what meaneth that, 1 <hi>Cor.</hi> 1.11. <hi>Them of the Houſe of</hi> Cloe. And againe, Though ſuch Houſes, as they ſpeake of, have been, are, and may be Preached in; yet conſider.</p>
+            <p n="1">I. What Divinity is in this Interpretation; when the Apoſtle is treating of the Houſe of GOD, and the Doctrine and behaviour therein, and of the evills of Seducers in the ſame, to underſtand houſes ſo groſly? 1 <hi>Tim.</hi> 3.15. 2 <hi>Tim.</hi> 2.3.</p>
+            <p n="2">II. What Chriſtianity is in this Interpretation, To lay down a ſenſe ſo to condemne ſome, as they therein condemne Chriſt Jeſus, and his Apoſtles, and Diſciples, who as they Preached the Goſpel in the Temple, and Synagogue, ſo they did Preach in mens houſes alſo; and from houſe to houſe. <hi>Mat</hi> 9.10.17 <hi>&amp;</hi> 12.46.48. Act. 5.42. &amp; 20.20. Yea, in their own houſes. <hi>Ioh.</hi> 1.39.43. Yea, even hired houſes.</p>
+            <p n="3">III. Let this Interpretation be granted; yet there is neither Wiſedome; nor Truth in their Application of it.</p>
+            <p>For firſt, Reaſon would tell a man; That theſe Seducers ſo care<g ref="char:EOLhyphen"/>full of their honour, and ſafety; would not commit Buglary in breaking into mens houſes; nor as Theeves, creep in at the win<g ref="char:EOLhyphen"/>dows, nor as ſilly ones, come in ſecretly, by the inletting of falſe ſer<g ref="char:EOLhyphen"/>vants, nor yet without the Invitation and Admittance of the Go<g ref="char:EOLhyphen"/>vernours of thoſe Houſes: And then they are falſe witneſſe bearers; which in ſuch a ſenſe ſay, <hi>They creep in:</hi> And</p>
+            <p>Secondly; The truth is, The <hi>Apoſtle</hi> ſaith,
+<hi>Houſes;</hi> Addeth nei<g ref="char:EOLhyphen"/>ther mens Houſes, nor private Houſes, and what are they that adde, or take away from the words of Scripture, as the Divell did in his Allegation thereof. <hi>Deut.</hi> 4. <hi>Matt.</hi> 4.6.</p>
+            <p>
+               <pb n="21" facs="tcp:113560:15"/>And is not the publick place, where People meet to Worſhip God, called a <hi>houſe</hi> alſo. <hi>Joh.</hi> 2.16.</p>
+            <p>And are not ſuch as have not not the Word of Grace in their hearts, and ſo want Authority from heaven, and ſecretly get out<g ref="char:EOLhyphen"/>ward Authority, and come into theſe Houſes, (without the fore<g ref="char:EOLhyphen"/>knowledge, and deſire of thoſe that maintaine the ſame, and meet therein,) to be their Teachers; <hi>Creepers into Houſes?</hi>
+            </p>
+            <p>And can they that have the Word of Grace in their hearts occa<g ref="char:EOLhyphen"/>ſionally Declaring it; not preſuming to be Teachers in theſe Houſes without a lawfull outward Gall? <hi>Act.</hi> 13.15.</p>
+            <p>Nor in private Houſes, without the Admittance of the Gover<g ref="char:EOLhyphen"/>nours of thoſe houſes. <hi>Act.</hi> 10.33. Be ſaid to <hi>creep into Houſes,</hi> let either right Reaſon, or Religion judge this, and how contrary it is to. 1 <hi>Pet.</hi> 2.2,3,4,5,9.</p>
+            <p>And as for this Groſſe Interpretation, for a miſ-application, to condemne the uſe of Spirituall gifts in Beleevers fellowſhip in the Goſpel, in Declaration of the ſame, and praying together in mens houſes; Is it not contrary to the Spirit of Chriſt. 1 <hi>Cor.</hi> 12.7.</p>
+            <p>The Practiſe of Chriſt and his Apoſtles; The end of Chriſt, his Aſſention, and giving of Spirit. <hi>Epheſ.</hi> 4.7,12. and the growth of the body. <hi>verſ.</hi> 16.</p>
+            <p>Doth it not ſad the hearts of Beleevers, and ſtrengthen the hands of unbeleevers? <hi>Ezek.</hi> 33.3,22. Who receiveth it, doth not the World? 1 <hi>Joh.</hi> 4.5.</p>
+            <p>Doth it not occaſion ſome that ſit in the gate, to ſpeake and doe that they ſhould not againſt Beleevers, and the Drunkards to make ſongs, and the Hypocrites to make Jeaſts of them, and the Abjects to rave againſt them? <hi>Pſal.</hi> 69.7,12. and 35.15,16.</p>
+            <p>And while they would by this meanes engroſſe all to themſelves, and exalt themſelves, as the onely Teachers; Is not that verifyed in their teaching, that is Prophecyed. <hi>Ezek.</hi> 34.1,6.</p>
+            <p>And are not their common Approvers, thoſe Prophecyed of. 2
+<hi>Tim.</hi> 4.3,4.</p>
+            <p>And let but this corrupt Interpretation, and miſ-application be rejected: And then this ſenſe of the Word <hi>Houſes,</hi> may be added in the ſecond place to that at firſt mentioned; and ſtands well for
+<pb n="22" facs="tcp:113560:16"/>receiving all that is ſaid about this buſineſſe: Let the Scripture be viewed, and ſo the place conſidered: And then let any, that will not wilfully blind themſelves, conſider, and give Anſwer, as in their owne Conſcience and Judgement, they conceive; And ſay.</p>
+            <p n="1">1. <hi>Who, or of what Number are theſe Seducers to be reckoned? and of what ſort will you count the</hi> Seducers? <hi>whether of thoſe</hi>
+               <table>
+                  <row>
+                     <cell rows="11">
+                        <hi>That</hi>
+                     </cell>
+                     <cell>1. Love their owne ſelves, ſuch as are their Freinds, of their owne ſect and opinion.
+<hi>Matt.</hi> 5.43,44.</cell>
+                     <cell rows="11">
+                        <hi>Or, that</hi>
+                     </cell>
+                     <cell>1.
+<hi>Love all men, till they become of the Serpen<g ref="char:EOLhyphen"/>tine ſeed, though enemies to them, yet pittying them, and ſeeking their good.</hi> 2 Cor. 5.13,15.</cell>
+                  </row>
+                  <row>
+                     <cell>2. Mind, and count earthy Riches, Honours, and Preferments. 1 <hi>Tim.</hi> 6,5. <hi>Phil.</hi> 3.19,20. <hi>Rom.</hi>
+8.5,6.</cell>
+                     <cell>2. <hi>Mind, and ſeeke the things that are above, ſpirituall and heavenly.</hi> Col. 3.1,2.</cell>
+                  </row>
+                  <row>
+                     <cell>3. Are Boaſters of their Sect, and of their Knowledge, parts, pla<g ref="char:EOLhyphen"/>ces, holineſſe, and Au<g ref="char:EOLhyphen"/>thority. 1 <hi>Cor.</hi> 11.18.
+<hi>Jer.</hi> 9.23. <hi>Iſai.</hi> 65.15.</cell>
+                     <cell>3. <hi>Are Abaſers of themſelves, in reſpect of all ſuch humane things.</hi> Prov. 30.2,3. Act.
+3.12. 1 Tim. 1.13,15.</cell>
+                  </row>
+                  <row>
+                     <cell>4. Are proud, con<g ref="char:EOLhyphen"/>ceiting themſelves better, wiſer, and holyer then others, ſtanding upon their parts, and places. <hi>Ioh.</hi>
+7.48,49. <hi>Luk.</hi> 18.11.</cell>
+                     <cell>4. <hi>Are humble, concei<g ref="char:EOLhyphen"/>ving themſelves no better then others; ſtanding on no ſtrength, but the free-Grace, Spirit, and Power of God.</hi> Rom. 3.9, 2. and 1.3,5.</cell>
+                  </row>
+                  <pb n="23" facs="tcp:113560:16"/>
+                  <row>
+                     <cell>5. Are Blaſphemers of the Free-Grace, and Doctrine, and plain ſay<g ref="char:EOLhyphen"/>ings of Chriſt in the Goſpel, and thoſe that beleeve, and hold forth the ſame. <hi>Joh.</hi> 14.24.
+<hi>Mat.</hi> 27.63. <hi>Act.</hi> 26.24. and 28.22.</cell>
+                     <cell>5. <hi>Are magnifyers of the grace and Goſpel of Chriſt, and the truth of his ſay<g ref="char:EOLhyphen"/>ings, and bleſſers even of them that Perſecute them.</hi> 1 Cor.
+15.14. 2 Cor. 13.8. Rom. 12.14.</cell>
+                  </row>
+                  <row>
+                     <cell>6. Neglect naturall duty to Parents, under pretence of Religious Acts. <hi>Mat.</hi> 15.4,5,6.</cell>
+                     <cell>6. <hi>Are carefull by all well-doing, to gain in, even their unbeleeving Pa<g ref="char:EOLhyphen"/>rents.</hi> Rom. 9.1. 1 Cor.
+9.22. 1 Tim. 6.1. 1 Pet. 3.1.</cell>
+                  </row>
+                  <row>
+                     <cell>7. Are unthankfull to GOD for his Love to mankind, and thoſe that bring the tidings thereof among men, and for thoſe that receive the ſame. <hi>Joh.</hi> 10.32. &amp; 7.48,49. <hi>Pſal.</hi>
+2.2,3.</cell>
+                     <cell>7. <hi>Are thankfull for the Goſpel, declaring this love to mankind, and for thoſe that ſo preach it; And for thoſe that doe receive it.</hi> Rom. 1.16. &amp; 6.17. Col. 1.4,5.</cell>
+                  </row>
+                  <row>
+                     <cell>8. Are unholy, or profane, Deſpiſing their birth-right in the Go<g ref="char:EOLhyphen"/>ſpel, and living to them<g ref="char:EOLhyphen"/>ſelves. <hi>Heb.</hi>
+12.16.</cell>
+                     <cell>8. <hi>Are holy, in high eſtimate of the Goſpel, and their birth-right therein, and living to Chriſt, and to God in Chriſt, in the ſervice of his grace, and Goſpel.</hi> 2 Cor. 5.15. Phil.
+1.20,21.</cell>
+                  </row>
+                  <row>
+                     <cell>9. Are without natu<g ref="char:EOLhyphen"/>rall Affection, not ten<g ref="char:EOLhyphen"/>dring men of their owne fleſh and blood, forbid<g ref="char:EOLhyphen"/>ding the Preaching of the Goſpel to them, that they might be ſaved. <hi>Act.</hi> 17.24,27. 1 <hi>Theſ.</hi>
+2.15,16.</cell>
+                     <cell>9. <hi>Are compaſſionate to<g ref="char:EOLhyphen"/>wards all men of the ſame fleſh and blood, declaring the Goſpel to them, that they might be ſaved.</hi> Heb. 2.14. 2 Cor. 5.13,14. Tit. 3.2,3,4,5.</cell>
+                  </row>
+                  <pb n="24" facs="tcp:113560:17"/>
+                  <row>
+                     <cell>10. Are Truce-brea<g ref="char:EOLhyphen"/>kers, Departing from their Promiſes, and pra<g ref="char:EOLhyphen"/>ctiſes of Peace, and with<g ref="char:EOLhyphen"/>drawing others from their Concord in the Goſpel. <hi>Rom.</hi> 16.17,18.</cell>
+                     <cell>10. <hi>Are Makers of Peace, in ſeeking that men might have Peace with God, and with thoſe that call on him, with a pure heart, and Peaceable to<g ref="char:EOLhyphen"/>wards all men.</hi> Mat. 5.9. 2 Tim. 2.22. Heb. 12.14.</cell>
+                  </row>
+                  <row>
+                     <cell>11. Are falſe accuſers of the Doctrines, Say<g ref="char:EOLhyphen"/>ings, and lives of ſuch as Preach the Goſpel plain<g ref="char:EOLhyphen"/>ly. <hi>Rom.</hi> 3.5,8.
+<hi>Act.</hi> 6.13,14.</cell>
+                     <cell>11. <hi>Are no Accuſers, nor forgers, or receivers of falſe Accuſation, only ſo<g ref="char:EOLhyphen"/>ber diſcerners, juagers of that which on proof ap<g ref="char:EOLhyphen"/>pears, and by the Goſpel is judged.</hi> Mat. 7.16. 1 Tim.
+5.12.</cell>
+                  </row>
+                  <row>
+                     <cell rows="9">
+                        <hi>That are.</hi>
+                     </cell>
+                     <cell>12. Incontinent, in inordinate deſires after ſatisfying ſome luſts of the fleſh.
+<hi>Mat.</hi> 23.6,7.</cell>
+                     <cell rows="9">
+                        <hi>Or, that are.</hi>
+                     </cell>
+                     <cell>12. <hi>Subdued in ha<g ref="char:EOLhyphen"/>ving ſuch Affections and luſts of the fleſh crucified, and to accept Denialls.</hi> Gal. 5.24. 2 Cor.
+6.8.</cell>
+                  </row>
+                  <row>
+                     <cell>13. Feirce, and full of bitterneſſe, and wrath in their oppoſitions of the truth, and the pub<g ref="char:EOLhyphen"/>liſhers thereof. <hi>Act.</hi>
+7. &amp; 9.1.</cell>
+                     <cell>13. <hi>Patient, and ſuf<g ref="char:EOLhyphen"/>fering Reproaches and af<g ref="char:EOLhyphen"/>flictions, entreating when defamed.</hi> 2 Cor. 6.4.8.</cell>
+                  </row>
+                  <row>
+                     <cell>14. Diſpiſers of thoſe that are good, if not of their faction, and jumpe with him in every opi<g ref="char:EOLhyphen"/>nion, and practiſe.
+<hi>Ioh.</hi> 7.49. <hi>&amp;</hi> 9,16.</cell>
+                     <cell>14. <hi>Lovers, and eſtee<g ref="char:EOLhyphen"/>mers of the good, or good<g ref="char:EOLhyphen"/>neſſe in any; Though diffe<g ref="char:EOLhyphen"/>rent in ſome things, both in opinion, and Practiſe.</hi> Rom. 14.1,9.</cell>
+                  </row>
+                  <pb n="25" facs="tcp:113560:17"/>
+                  <row>
+                     <cell>15. Traytors, that under pretenſe of ſub<g ref="char:EOLhyphen"/>miſſion and love, ſeek to enſnare, and betray, thoſe they pretend to love and honour. <hi>Matt.</hi> 22.15,18.</cell>
+                     <cell>15.
+<hi>Plainly Declare their minde, though they ſuffer, and ſeek the good, and not the overthrow, and ruine of every, or any one.</hi> 2 Cor. 4.2. and 13.6. 2 Theſſ. 5.15.</cell>
+                  </row>
+                  <row>
+                     <cell>16. Heady proceeding, according to will, with<g ref="char:EOLhyphen"/>out cauſe, or reſpect to right reaſoning, or duty. 2 <hi>Theſ.</hi> 2.3.
+<hi>Matt.</hi> 27.23.</cell>
+                     <cell>16. <hi>Adviſed, not pro<g ref="char:EOLhyphen"/>ceeding, but with good ground and warrant, and with reſpect to right rea<g ref="char:EOLhyphen"/>ſon, and duty.</hi>
+1 Sam. 17.29. Gal. 2.11. Tit. 1.13.</cell>
+                  </row>
+                  <row>
+                     <cell>17. High minded: ſeeking great things, and great reſpect for them<g ref="char:EOLhyphen"/>ſelves, in truding into the things they have not ſeen.
+<hi>Mat.</hi> 23.6. <hi>Col.</hi> 2.18.</cell>
+                     <cell>17. <hi>Not ſeeking, or advancing themſelves, but Chriſt Ieſus the Lord, nor preſuming above the pro<g ref="char:EOLhyphen"/>portion of Faith given them.</hi> 2 Cor. 4.5. Rom. 12.3.</cell>
+                  </row>
+                  <row>
+                     <cell>18. Lovers of Plea<g ref="char:EOLhyphen"/>ſures, their owne Peace; fulneſſe, eaſe, and free<g ref="char:EOLhyphen"/>dom from the ſufferings of Chriſt, more then they love God, and his truth. <hi>Phil.</hi> 3.18,19. <hi>Gal.</hi>
+6.12.</cell>
+                     <cell>18. <hi>Indurers of hard<g ref="char:EOLhyphen"/>ſhip, and patient Sufferers for Chriſt his Truth, and People.</hi> Gal. 6.14. 2 Cor. 6.4,8.</cell>
+                  </row>
+                  <row>
+                     <cell>19. Contenters of themſelves with a forme of godlineſſe without, yea, denying the Power of it. 2 <hi>Cor.</hi> 11.15.
+<hi>Gal.</hi> 6.13.</cell>
+                     <cell>19. <hi>Regarders of no forme of Godlineſſe; but what iſſues, through faith in Chriſt, from the Word and Spirit of grace in the heart.</hi> 2 Cor. 3.1,3. 18. Rom. 8.2
+9,11.14.</cell>
+                  </row>
+               </table> 
+            </p>
+            <p>
+               <pb n="26" facs="tcp:113560:18"/>Now whether the Seducers in reſpect of outward, and Eccleſi<g ref="char:EOLhyphen"/>aſticall Authority, get in more ſecretly; as they were faine to doe in in the Apoſtles dayes, or more openly, as they doe in the dayes the A<g ref="char:EOLhyphen"/>poſtle Propheſied of. 2 <hi>Tim.</hi> 3.6.1. <hi>and</hi>
+4.3. To teach in private or Publick Houſes, if any be doubtfull, of which of theſe two ſorts they are, let him reade. 2 <hi>Tim.</hi> 3.2,6.</p>
+            <p n="2">2. <hi>Againe, who are they that creep into houſes Publike or Private. Thoſe<g ref="char:punc">▪</g>
+               </hi>
+               <table>
+                  <row>
+                     <cell rows="2">
+                        <hi>That are.</hi>
+                     </cell>
+                     <cell>1. Beleeve not the plaine ſayings of Goſpel; and are not ſpiritually enlightened, and taught of God, and ſo have no miſſion from heaven. <hi>Col.</hi> 2.18.
+<hi>Ioh.</hi> 17.9,18,20.</cell>
+                     <cell rows="2">
+                        <hi>Or,</hi>
+                     </cell>
+                     <cell>1. That have the word of grace in their heart; Spiritually taught and ſo having Faith and Charity, ſpeake accor<g ref="char:EOLhyphen"/>ding to the proportion of Faith, and ſo with miſſion from heaven. <hi>Rom.</hi> 12.3. 1 <hi>Pet.</hi> 4.10,11. 1
+<hi>Cor.</hi> 2.13. 2 <hi>Cor.</hi> 5.19.</cell>
+                  </row>
+                  <row>
+                     <cell>2. <hi>Hide the Goſpel, and deliver their minds in ſubtill Queſtions, and en<g ref="char:EOLhyphen"/>tiſing words of mans wiſ<g ref="char:EOLhyphen"/>dome.</hi>
+                     </cell>
+                     <cell>2. That Deliver the Goſpel in plaine words, and according to the plaine ſayings of Chriſt, with evidence of Spirit. 1
+<hi>Cor.</hi> 2.1,6. 2 <hi>Cor.</hi> 4.1,2.</cell>
+                  </row>
+               </table>
+            </p>
+            <p n="3">3. <hi>Or who doth the work of theſe Seducers? Thoſe that entangle with bondage, or thoſe that endeavour to bring to liberty in Chriſt. And ſo it may be Demanded, according to what is fore-mentioned in this wright<g ref="char:EOLhyphen"/>ing, by which all that know &amp; Beleeve the Scripture, may give Anſwer, &amp; ſo both truly diſcerne, and ſay: who theſe Seducers. bee; which may alſo.</hi>
+               <list>
+                  <item>1. Warne all that beleeve, and profeſſe the Goſpel, to beware of theſe Seducers, and of being ſpotted with their ſpots; and of Inward, and intimate fellowſhip with them; or receiving their Peachings,
+<pb n="27" facs="tcp:113560:18"/>but the more abundantly to Preach the Goſpel, and contend for the faith. 1 Tim. 6.3,5. 2 Tim. 3.5. &amp; 4.2,3,4. Jude 1,2,3,4.</item>
+                  <item>2. Stirre up all, not to reſt, till they be eſtabliſhed in the Faith; That ſo they may be out of the Danger of being overcome by theſe Seducers. <hi>Gal.</hi> 4.17. 2 <hi>Pet.</hi> 1.10,19.</item>
+                  <item>3. Comfort us all that are eſtabliſh in CHRIST: Theſe Se<g ref="char:EOLhyphen"/>ducers ſhall not carry away the leaſt eſtabliſhed babe. 1
+<hi>Pet.</hi> 1.3,5. and 2.2,9. <hi>with</hi> Matth. 16.16.18.</item>
+               </list>
+            </p>
+         </div>
+         <trailer>Now the LORD eſtabliſh us in CHRIST, and <g ref="char:V">Ʋ</g>nite; and make us fruitfull in Him; To whom be Glory for ever. AMEN.</trailer>
+         <trailer>FINIS.</trailer>
+      </body>
+   </text>
+</TEI>
